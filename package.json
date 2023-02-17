@@ -1,0 +1,19 @@
+{
+    "name": "video-elements",
+    "version": "1.0.0-a.0",
+    "description": "Add overlay elements on top of a video.",
+    "main": "dist/video-elements.js",
+    "scripts": {
+        "build": "node build",
+        "build-watch": "node build/watch",
+        "test": "live-server & npm run build-watch"
+    },
+    "author": "Daniel F.H.",
+    "license": "ISC",
+    "devDependencies": {
+        "@babel/core": "^7.20.12",
+        "@babel/preset-env": "^7.20.2",
+        "live-server": "^1.2.2",
+        "rollup": "^3.16.0"
+    }
+}
